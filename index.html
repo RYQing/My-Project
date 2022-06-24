@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href=" ..\css\test.css">
+</head>
+<body>
+    <div id="mainpage">
+        <!页眉>
+        <header class="header">
+            <img id="headerLogo"
+                 src="..\images\yemei.jpg" alt="yemei">
+          </header>
+        <!导航>
+        <nav>
+            <ul>
+            <li class="selected"><a href="mainpage.html">首页</a></li>
+            <li><a href="s-page1.html">爱好-旅游</a></li>
+            <li><a href="s-page2.html">爱好-美食</a></li>
+            <li><a href="s-page3.html">规划</a></li>
+            </ul>
+        </nav>
+        <!介绍表格>
+        <div id="form">
+            <table>
+                <h2>个人信息</h2>
+                <tr>
+                  <th>姓名</th>
+                  <th>性别</th>
+                  <th>出生年月</th>
+                  <th>籍贯</th>
+                  <th>就读院校</th>
+                  <th>专业</th>
+                  <th>个人邮箱</th>
+                </tr>
+                <tr>
+                    <td>任雨晴</td>
+                    <td>女</td>
+                    <td>2001.10</td>
+                    <td>河北省保定市</td>
+                    <td>中南财经政法大学</td>
+                    <td>信息管理与信息系统</td>
+                    <td>1772980933@qq.com</td>
+               </tr>
+              </table>
+        </div>
+        <!list item>
+        <div id="competition">
+            
+            <h2>参赛经历</h2>
+            <li>
+                中南财经政法大学第33届博文杯	
+            </li>
 
+            <li>
+                2022年大学生创新创业训练计划
+            </li>
+
+            <li>
+                第八届中国国际“互联网+”大学生创新创业大赛
+            </li>
+            
+            <li>
+                “创客中南”
+            </li>
+            
+            <li>
+                第十三届“挑战杯”中国大学生创业计划竞赛
+            </li>
+        </div>
+        <!超链接>
+        <div id="interest">
+            <h2>兴趣爱好</h2>
+            <p><a href="s-page1.html">旅游</a>：经常和朋友去周边城市或者朋友的城市转转</p>
+            <p><a href="s-page2.html">美食</a>：会去学校周边或者武汉一些有名的店里面寻找美食</p>
+            <p>游戏：会在闲暇时玩一些游戏</p>
+        </div>
+        <!>
+        <div id="prospect">
+            <h2><a href="s-page3.html">未来规划</a></h2>
+            <p>短期规划：针对自己现状制定一些小的计划</p>
+            <p>长期规划：长远的目标并为此做的打算</p>
+        </div>
+        <!表单>
+        <div>
+            <form action="s-page1.html" method="post">
+            <h2>评价</h2>
+            <div id="tableRow">
+                <label for="choose">
+                    选择对我的评价：
+                </label>
+                <select id="choose" name="choose">
+                    <option value="play">喜欢玩乐</option>
+                    <option value="learn">专注学习</option>
+                    <option value="believe">值得信赖</option>
+                </select>
+                </p>
+            </div>
+            <!留言板>
+            <div id="tableRow">
+                <label for="comments">想对我说的话:</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+            <div id="tableRow">
+                <label></label>
+                <input type="submit" value="提交">
+            </div>
+        </div>
+        <!页脚>
+        <footer>
+            @2022, RenYuqing
+            <br>
+            持续成为有趣、精致、内心充盈的更好的自己
+          </footer>
+    </div>
+</body>
+</html>
