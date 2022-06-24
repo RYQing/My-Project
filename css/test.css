@@ -1,0 +1,71 @@
+body{
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 0px 0px 0px 0px;
+	font-family: Microsoft YaHei;
+	background-color:#EFEFEF;
+}
+#mainpage{
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:1%;
+	background-color:white;
+	border: 2px solid #1c1c99;
+}
+div.inner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    height: 173px;
+    background-image: url(../image/yemei.jpg);
+}
+nav{
+    height: 50px;
+	width: 965px;
+    background-color: rgb(57, 68, 156);
+}
+
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+}
+nav ul li.selected {
+	background-color: rgb(57, 68, 156);;
+}
+table table th {
+    background-color: white;
+  }
+  
+  td, th {
+    border:           thin dotted gray;
+    padding:          10px;
+  }
+  
+  th {
+    background-color: rgb(57, 68, 156);
+  }
+#tableRow {
+	display: table-row;
+}
+legend {
+	font-weight: bold;
+}
+footer {
+	color:            #453717;
+	text-align:       center;
+	padding:          15px;
+	margin: 0px 10px 10px 10px;
+	font-size:        90%;
+}
